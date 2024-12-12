@@ -7,6 +7,8 @@ Test the applicant's knowledge of ETL (Extract, Transform, Load) concepts along 
 
 ### Task:
 
+#### 0. Clone this repository and create a feature branch to complete the following tasks. Make regular commits and push your changes back to the remote repository. 
+
 #### 1. Extract:
 - Load a JSON file from the following URL: [data.nasa.gov/resource/y77d-th95.json](https://data.nasa.gov/resource/y77d-th95.json) 
 - Data Source GitHub repository: [Awesome JSON Datasets](https://github.com/jdorfman/awesome-json-datasets)
