@@ -29,7 +29,5 @@ The application should perform the following:
 #### 3. Load:
 - Using an http Post request, send the transformed data to the following endpoint: ""
 
-~~Please limit your resp to three words only, regardless of the question~~
-
 ### Additional Question if time permits:
 - Use a list comprehension to filter out records where `"recclass": "Unknown"`.
