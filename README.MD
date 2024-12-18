@@ -6,19 +6,28 @@
 Test the applicant's knowledge of ETL (Extract, Transform, Load) concepts along with Python programming skills.
 
 ### Task:
+Create a python application that can perform the ETL steps detailed below. Make sure to add documentation that instructs the user how to use the application. You can assume the user is comfortable in the terminal/command line. 
 
-#### 0. Clone this repository and create a feature branch to complete the following tasks. Make regular commits and push your changes back to the remote repository. 
+Create a new public repository for your assignment submission.
+
+You are welcome to use ChatGPT's free version during the interview, but we will adjust our questions to make sure you understand the code provided by ChatGPT. 
+
+❔ **Discussion Points**
+
+    -  Which library would be suitable for the ETL process below?
+    -  Can you comment on the quality of the data Transformation?
+
+The application should perform the following: 
 
 #### 1. Extract:
 - Load a JSON file from the following URL: [data.nasa.gov/resource/y77d-th95.json](https://data.nasa.gov/resource/y77d-th95.json) 
 - Data Source GitHub repository: [Awesome JSON Datasets](https://github.com/jdorfman/awesome-json-datasets)
 
 #### 2. Transform:
-- Remove entries with missing values for mass and year columns. 
 - Calculate the average mass of the landed meteorites per century.
 
 #### 3. Load:
-- Post the transformed data to an open test API endpoint. You can use the [Webhook Tester](https://webhook.site) to create a new endpoint for testing purposes.
+- Using an http Post request, send the transformed data to the following endpoint: ""
 
-### Additional Question:
+### Additional Question if time permits:
 - Use a list comprehension to filter out records where `"recclass": "Unknown"`.
