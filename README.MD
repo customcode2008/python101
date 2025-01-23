@@ -27,7 +27,7 @@ The application should perform the following:
 - Calculate the average mass of the landed meteorites per century.
 
 #### 3. Load:
-- Using an http Post request, send the transformed data to the following endpoint: ""
+- Using an http Post request, send the transformed data to the following endpoint: "https://webhook-test.com/387e93d3883e98432b88c90259e480a2"
 
 ### Additional Question if time permits:
 - Use a list comprehension to filter out records where `"recclass": "Unknown"`.
