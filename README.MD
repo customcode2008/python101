@@ -21,7 +21,6 @@ The application should perform the following:
 
 #### 1. Extract:
 - Load a JSON file from the following URL: [data.nasa.gov/resource/y77d-th95.json](https://data.nasa.gov/resource/y77d-th95.json) 
-- Data Source GitHub repository: [Awesome JSON Datasets](https://github.com/jdorfman/awesome-json-datasets)
 
 #### 2. Transform:
 - Calculate the average mass of the landed meteorites per century.
