@@ -20,7 +20,7 @@ You are welcome to use ChatGPT's free version during the interview, but we will 
 The application should perform the following: 
 
 #### 1. Extract:
-- Load a JSON file from the following URL: [data.nasa.gov/resource/y77d-th95.json](https://data.nasa.gov/resource/y77d-th95.json) 
+- Load a JSON file from the following URL: [https://raw.githubusercontent.com/customcode2008/python101/refs/heads/main/y77d-th95.json](https://raw.githubusercontent.com/customcode2008/python101/refs/heads/main/y77d-th95.json) *(source: NASA)*
 
 #### 2. Transform:
 - Calculate the average mass of the landed meteorites per century.
